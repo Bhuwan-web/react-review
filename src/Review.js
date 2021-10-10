@@ -35,7 +35,7 @@ const Review = () => {
   };
   return (
     <>
-      <section className="review">
+      <article className="review">
         <div className="img-container">
           <img className="person-img" src={image} alt={name} />
           <div className="quote-icon">
@@ -58,7 +58,7 @@ const Review = () => {
             Random
           </button>
         </div>
-      </section>
+      </article>
     </>
   );
 };
